@@ -1,52 +1,168 @@
+/* Global styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
+  color: #ffffff;
+  background-color: #004ba0;
 }
 
-header {
-  background-color: #333;
-  padding: 1em 0;
+.App {
+  text-align: center;
+  color: white;
+}
+
+/* Header and Banner Styling */
+.header {
+  position: relative;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #004ba0;
+  padding: 10px 0;
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  list-style: none;
   display: flex;
   justify-content: center;
+  padding: 0;
 }
 
 nav ul li {
-  margin: 0 1.5em;
+  margin: 0 15px;
 }
 
 nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Home Section */
+.home {
+  padding: 50px;
+}
+
+.home h1 {
+  font-size: 2.5rem;
   color: white;
-  text-decoration: none;
 }
 
-section {
-  padding: 2em;
-  text-align: center;
+.home p {
+  font-size: 1.2rem;
+  color: #ffffff;
 }
 
-h1, h2 {
-  margin: 0.5em 0;
+/* Projects Section */
+.projects {
+  padding: 50px;
 }
 
-button a {
-  text-decoration: none;
-  color: #fff;
+.projects ul {
+  list-style: none;
+  padding: 0;
 }
 
-button {
-  background-color: #333;
-  padding: 0.7em 1.5em;
-  border: none;
-  cursor: pointer;
+.projects ul li {
+  margin: 20px 0;
 }
 
-button:hover {
-  background-color: #555;
+.projects ul li strong {
+  font-size: 1.2rem;
+}
+
+.projects ul li p {
+  font-size: 1rem;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px;
+}
+
+.contact p {
+  font-size: 1.2rem;
+}
+
+/* Resume Section */
+.resume {
+  padding: 40px;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.resume h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.resume h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.resume p, .resume ul {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.resume ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .home h1 {
+    font-size: 2rem;
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .resume, .projects, .contact {
+    padding: 20px;
+  }
+
+  .resume h2 {
+    font-size: 1.5rem;
+  }
+
+  .resume h3 {
+    font-size: 1.2rem;
+  }
+
+  .resume p, .resume ul {
+    font-size: 0.9rem;
+  }
+
+  .projects ul li strong {
+    font-size: 1rem;
+  }
+
+  .projects ul li p {
+    font-size: 0.9rem;
+  }
 }

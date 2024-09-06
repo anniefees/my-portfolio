@@ -2,20 +2,20 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <section id="projects" className="projects">
-      <h2>Projects</h2>
+    <section className="projects">
+      <h2>My Projects</h2>
       <ul>
         <li>
-          <strong>Campus Housing Management System</strong>
-          <p>Developed using Python, Angular, and AWS S3. [Link to GitHub]</p>
+          <strong>Campus Housing Management System</strong> (Python, AWS, Angular)
+          <p>A cloud-based system to manage housing assignments for over 8,000 students.</p>
         </li>
         <li>
-          <strong>Portfolio Website</strong>
-          <p>Built with React. [Link to GitHub]</p>
+          <strong>Portfolio Website</strong> (React, JavaScript, CSS)
+          <p>A responsive personal portfolio website to showcase my experience and skills.</p>
         </li>
         <li>
-          <strong>E-commerce Website</strong>
-          <p>Full-stack project using React, Node.js, and MongoDB. [Link to GitHub]</p>
+          <strong>E-Commerce Website</strong> (React, Node.js, MongoDB)
+          <p>A full-stack e-commerce application with user authentication and payment processing.</p>
         </li>
       </ul>
     </section>
