@@ -10,7 +10,7 @@ const Projects = () => {
         <a href="https://github.com/anniefees" className="button">Visit My GitHub</a>
       </div>
 
-      {/* Certificates Section (Moved Above Professional Projects) */}
+      {/* Certificates Section */}
       <div className="section-container">
         <h3>Certificates</h3>
         <div className="certificate-item">
@@ -36,11 +36,9 @@ const Projects = () => {
             <p>
               Contributed to the BYU On-Campus Housing ecosystem, creating icons and components still in use today. 
               Used Mendix, JavaScript, HTML, CSS, Angular, and React to build temporary functionality for the housing system.
-              <br />
-              <strong>Note:</strong> Much of the work involved Sensitive Security Information (SSI) and FERPA-protected information and systems. Due to confidentiality, specifics of the work cannot be shared.
             </p>
             <a href="https://housing.byu.edu/secure/services/c_main/default.aspx" target="_blank" rel="noopener noreferrer" className="button">
-              Visit the site
+              View Website
             </a>
           </div>
         </div>
@@ -77,6 +75,19 @@ const Projects = () => {
             </p>
             <a href="https://anniefees.github.io/AnnieD479Task1/" target="_blank" rel="noopener noreferrer" className="button">
               Visit the project
+            </a>
+          </div>
+
+          <div className="project-item">
+            <h4>Paradigm Pet Professionals Website Evaluation and Prototype (User Interface Design)</h4>
+            <p>
+              Evaluated the “Paradigm Pet Professionals Website” and developed an interactive desktop prototype addressing stakeholder and audience needs, with a focus on SEO strategies, information architecture, and accessibility standards.
+            </p>
+            <a href="https://anniefees.github.io/D279WGU-PA/" target="_blank" rel="noopener noreferrer" className="button">
+              Visit the project
+            </a>
+            <a href="https://github.com/anniefees/D279WGU-PA" target="_blank" rel="noopener noreferrer" className="button">
+              GitHub Repository
             </a>
           </div>
         </div>
