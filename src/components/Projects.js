@@ -36,6 +36,9 @@ const Projects = () => {
             <p>
               Contributed to the BYU On-Campus Housing ecosystem, creating icons and components still in use today. 
               Used Mendix, JavaScript, HTML, CSS, Angular, and React to build temporary functionality for the housing system.
+              <br /><br />
+              <strong>Note:</strong> Due to the sensitive nature of the data involved, I worked primarily on Sensitive Security 
+              information and FERPA-protected systems, and therefore cannot share specifics of the work done.
             </p>
             <a href="https://housing.byu.edu/secure/services/c_main/default.aspx" target="_blank" rel="noopener noreferrer" className="button">
               View Website
@@ -62,8 +65,11 @@ const Projects = () => {
               Created a multi-page website for a state government office, including information about cities, 
               population data, and navigation menus. HTML lists, tables, and forms with email verification were also implemented.
             </p>
-            <a href="https://anniefees.github.io/AnnieD479Task1/" target="_blank" rel="noopener noreferrer" className="button">
+            <a href="https://anniefees.github.io/d277AnnieFinal/" target="_blank" rel="noopener noreferrer" className="button">
               Visit the project
+            </a>
+            <a href="https://github.com/anniefees/d277AnnieFinal" target="_blank" rel="noopener noreferrer" className="button">
+              GitHub Repository
             </a>
           </div>
 
