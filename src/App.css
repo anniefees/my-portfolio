@@ -49,64 +49,80 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Resume Section */
-.resume {
-  padding: 40px;
-  text-align: left;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.resume h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-.resume h3 {
-  font-size: 1.5rem;
-  margin-top: 20px;
-}
-
-.resume p, .resume ul {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin: 10px 0;
-}
-
-.resume ul {
-  list-style: disc;
-  padding-left: 20px;
-}
-
-/* Projects Section */
-.projects {
-  padding: 50px;
-}
-
-.projects ul {
-  list-style: none;
-  padding: 0;
-}
-
-.projects ul li {
-  margin: 20px 0;
-}
-
-.projects ul li strong {
-  font-size: 1.2rem;
-}
-
-.projects ul li p {
-  font-size: 1rem;
+/* General Container Styling */
+.container {
+  background-color: #e0efff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 1200px;
+  color: #004ba0;
 }
 
 /* Contact Section */
 .contact {
   padding: 50px;
+  background-color: #e0efff;
+  color: #003580; /* Fixed text contrast */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
 }
 
-.contact p {
-  font-size: 1.2rem;
+/* Projects Page Styling */
+.projects {
+  padding: 50px;
+}
+
+.section-container {
+  background-color: #e0efff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section-container h3 {
+  color: #003580;
+}
+
+.project-item, .course-item, .certificate-item {
+  padding: 15px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Multi-column layout for projects */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Button Styling */
+.button {
+  display: inline-block !important;
+  padding: 12px 24px !important;
+  background-color: #004ba0 !important;
+  color: white !important;
+  text-decoration: none !important;
+  font-size: 1.1rem !important;
+  font-weight: bold !important;
+  border-radius: 30px !important;
+  border: 2px solid transparent !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important;
+  margin: 10px !important;
+}
+
+.button:hover {
+  background-color: white !important;
+  color: #004ba0 !important;
+  border: 2px solid #004ba0 !important;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3) !important;
+  transform: translateY(-2px) !important;
 }
 
 /* Responsive Styles */
@@ -142,28 +158,4 @@ nav ul li a:hover {
   .projects ul li p {
     font-size: 0.9rem;
   }
- /* Button Styling */
-.button {
-  display: inline-block !important;
-  padding: 12px 24px !important;
-  background-color: #004ba0 !important; /* Blue color that matches the theme */
-  color: white !important;
-  text-decoration: none !important;
-  font-size: 1.1rem !important;
-  font-weight: bold !important;
-  border-radius: 30px !important;
-  border: 2px solid transparent !important;
-  transition: all 0.3s ease !important;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important;
-  margin: 10px !important;
-}
-
-/* Hover effect */
-.button:hover {
-  background-color: white !important;
-  color: #004ba0 !important;
-  border: 2px solid #004ba0 !important;
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3) !important;
-  transform: translateY(-2px) !important;
-}
 }
