@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.006f8bea.css",
+    "main.js": "/my-portfolio/static/js/main.41314d72.js",
+    "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/AnnistonFAHeadshot.jpeg": "/my-portfolio/static/media/AnnistonFAHeadshot.5724123a0dc5e4837328.jpeg",
+    "static/media/AnnieBlueLinkedInBanner.png": "/my-portfolio/static/media/AnnieBlueLinkedInBanner.ebb4ca129aa54a571a4a.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.006f8bea.css.map": "/my-portfolio/static/css/main.006f8bea.css.map",
+    "main.41314d72.js.map": "/my-portfolio/static/js/main.41314d72.js.map",
+    "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.006f8bea.css",
+    "static/js/main.41314d72.js"
+  ]
+}
