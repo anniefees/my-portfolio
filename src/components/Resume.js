@@ -21,6 +21,7 @@ const Resume = () => {
 
         <div className="experience-item">
           <h4>Flight Attendant (German Qualified) - United Airlines</h4>
+          <p><em>2023 – Present</em></p>
           <p>
             <strong>Responsibilities:</strong> Served nearly 300 passengers per flight on long-haul international flights, 
             flying between Washington, D.C., and Europe. Managed in-flight services, ensured customer satisfaction, and 
@@ -32,19 +33,26 @@ const Resume = () => {
         </div>
 
         <div className="experience-item">
-          <h4>Web Developer - Brigham Young University</h4>
+          <h4>English as a Foreign Language Teacher - Italki</h4>
+          <p><em>2022 – 2023</em></p>
           <p>
-            Collaborated with a team of 10 developers to design, develop, and maintain the On-Campus Housing system. 
-            I created icons and several components still in use today, using technologies such as Mendix, JavaScript, HTML, CSS, 
-            Angular, and React.
-            <br />
-            Built temporary functionality to support operations while permanent solutions were being developed, 
-            streamlining the user experience for over 8,000 students.
+            Delivered personalized English lessons to students worldwide, enhancing language proficiency and cultural understanding. 
+            Conducted over 850 online classes with a 75% student retention rate and improved student performance by 40%.
+          </p>
+        </div>
+
+        <div className="experience-item">
+          <h4>Tour Guide - Fraulein Maria’s Bicycle Tours, Salzburg, Austria</h4>
+          <p><em>2022</em></p>
+          <p>
+            Led private and group bicycle tours, sharing insights on local history and culture while ensuring guest safety.
+            Provided personalized tours based on guests’ interests and abilities, enhancing their overall experience.
           </p>
         </div>
 
         <div className="experience-item">
           <h4>Barista - My Mom's Cafe, Salzburg, Austria</h4>
+          <p><em>2021</em></p>
           <p>
             Provided exceptional customer service, communicated fluently in both German and English, and 
             promoted seasonal beverages. Managed cash transactions and maintained a clean, efficient working environment.
@@ -54,18 +62,15 @@ const Resume = () => {
         </div>
 
         <div className="experience-item">
-          <h4>Tour Guide - Fraulein Maria’s Bicycle Tours, Salzburg, Austria</h4>
+          <h4>Web Developer - Brigham Young University</h4>
+          <p><em>2020</em></p>
           <p>
-            Led private and group bicycle tours, sharing insights on local history and culture while ensuring guest safety.
-            Provided personalized tours based on guests’ interests and abilities, enhancing their overall experience.
-          </p>
-        </div>
-
-        <div className="experience-item">
-          <h4>English as a Foreign Language Teacher - Italki</h4>
-          <p>
-            Delivered personalized English lessons to students worldwide, enhancing language proficiency and cultural understanding. 
-            Conducted over 850 online classes with a 75% student retention rate and improved student performance by 40%.
+            Collaborated with a team of 10 developers to design, develop, and maintain the On-Campus Housing system. 
+            I created icons and several components still in use today, using technologies such as Mendix, JavaScript, HTML, CSS, 
+            Angular, and React.
+            <br />
+            Built temporary functionality to support operations while permanent solutions were being developed, 
+            streamlining the user experience for over 8,000 students.
           </p>
         </div>
       </div>
@@ -74,19 +79,34 @@ const Resume = () => {
       <div className="section-container">
         <h3>Education</h3>
         <div className="education-item">
-          <h4>B.S. in Software Engineering (Expected Early Spring 2025) - Western Governors University</h4>
+          <h4>B.S. in Software Engineering (Expected 2025) - Western Governors University</h4>
+          <p><em>2023 – Present</em></p>
         </div>
         <div className="education-item">
           <h4>B.S. Informatik (not complete) Paris Lodron Universitaet Salzburg -- Salzburg, Austria</h4>
+          <p><em>2021 – 2022</em></p>
           <p>
-            Completed approximately 2.5 years of coursework in Informatics with a focus on data management and 
+            Completed 2 years of coursework in Informatics with a focus on data management and 
             software development. The program emphasized hands-on learning in programming and problem-solving, 
             preparing students for practical applications in technology.
           </p>
         </div>
         <div className="education-item">
           <h4>Vilseck High School - Vilseck, Germany</h4>
+          <p><em>Graduated 2020</em></p>
         </div>
+      </div>
+
+      {/* Certificates Section */}
+      <div className="section-container">
+        <h3>Certificates</h3>
+        <ul className="certificates-list">
+          <li><strong>AWS Certified Cloud Practitioner</strong> - Obtained 2023</li>
+          <li><strong>CompTIA Project+</strong> - Obtained 2023</li>
+          <li><strong>Google IT Support Certificate</strong> - Obtained 2021</li>
+          <li><strong>Deutsch B2 (Goethe-Institut)</strong> - Obtained 2020</li>
+          <li><strong>ITIL 4 Foundation</strong> - Obtained 2021</li>
+        </ul>
       </div>
 
       {/* Skills and Hobbies Section in Two Columns */}
