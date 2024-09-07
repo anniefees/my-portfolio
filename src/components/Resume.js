@@ -103,9 +103,10 @@ const Resume = () => {
         <ul className="certificates-list">
           <li><strong>AWS Certified Cloud Practitioner</strong> - Obtained 2023</li>
           <li><strong>CompTIA Project+</strong> - Obtained 2023</li>
-          <li><strong>Google IT Support Certificate</strong> - Obtained 2021</li>
+          <li><strong>ITIL 4 Foundation</strong> - Obtained 2023</li>
+          <li><strong>Google IT Support Certificate</strong> - Obtained 2022</li>
           <li><strong>Deutsch B2 (Goethe-Institut)</strong> - Obtained 2020</li>
-          <li><strong>ITIL 4 Foundation</strong> - Obtained 2021</li>
+
         </ul>
       </div>
 
