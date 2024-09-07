@@ -142,4 +142,20 @@ nav ul li a:hover {
   .projects ul li p {
     font-size: 0.9rem;
   }
+  /* Button Styling */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #004ba0;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #003580;
+}
 }

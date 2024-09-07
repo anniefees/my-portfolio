@@ -4,9 +4,11 @@ const Contact = () => {
   return (
     <section className="contact">
       <h2>Contact Me</h2>
-      <p>Email: feesa@mac.com</p>
-      <p>GitHub: <a href="https://github.com/anniefees">anniefees</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/anniefees">Anniston Fees on LinkedIn</a></p>
+      <div className="contact-buttons">
+        <a href="https://github.com/anniefees" className="button">GitHub</a>
+        <a href="https://www.linkedin.com/in/anniefees" className="button">LinkedIn</a>
+        <a href="mailto:feesa@mac.com" className="button">Email</a>
+      </div>
     </section>
   );
 };
