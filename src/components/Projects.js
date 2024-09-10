@@ -56,6 +56,12 @@ const Projects = () => {
             <p>
               Developed a functional Angular application that integrates an SVG-based world map. 
               Users can click on countries to view dynamically retrieved information from an external API.
+              <a href="https://anniefees.github.io/freshMapApp/" target="_blank" rel="noopener noreferrer" className="button">
+              Visit the project
+            </a>
+            <a href="https://github.com/anniefees/freshMapApp" target="_blank" rel="noopener noreferrer" className="button">
+              GitHub Repository
+            </a>
             </p>
           </div>
 
