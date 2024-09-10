@@ -50,19 +50,20 @@ const Projects = () => {
       {/* Class Projects Section */}
       <div className="section-container">
         <h3>Class Projects</h3>
+        <p>Note: this projects section is being updated regularly as I improve these projects and finish new ones.</p>
         <div className="projects-grid">
           <div className="project-item">
             <h4>Angular World Map Application (JavaScript Fundamentals)</h4>
             <p>
               Developed a functional Angular application that integrates an SVG-based world map. 
               Users can click on countries to view dynamically retrieved information from an external API.
-              <a href="https://anniefees.github.io/freshMapApp/" target="_blank" rel="noopener noreferrer" className="button">
+            </p>
+            <a href="https://anniefees.github.io/freshMapApp/" target="_blank" rel="noopener noreferrer" className="button">
               Visit the project
             </a>
             <a href="https://github.com/anniefees/freshMapApp" target="_blank" rel="noopener noreferrer" className="button">
               GitHub Repository
             </a>
-            </p>
           </div>
 
           <div className="project-item">
@@ -87,6 +88,9 @@ const Projects = () => {
             </p>
             <a href="https://anniefees.github.io/AnnieD479Task1/" target="_blank" rel="noopener noreferrer" className="button">
               Visit the project
+            </a>
+            <a href="https://github.com/anniefees/AnnieD479Task1/" target="_blank" rel="noopener noreferrer" className="button">
+              GitHub Repository
             </a>
           </div>
 
