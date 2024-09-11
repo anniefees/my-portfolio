@@ -6,7 +6,7 @@ const Home = () => {
     <section className="home">
       <div className="home-content">
         <div className="headshot-container">
-          <img src={require('../images/AnnistonFAHeadshot.jpeg')} alt="Anniston Fees Headshot" className="headshot" />
+          <img src={require('../images/image-54.png')} alt="Anniston Fees Headshot" className="headshot" />
         </div>
         <div className="text-container">
           <h1>Welcome to Anniston Fees' Portfolio</h1>
