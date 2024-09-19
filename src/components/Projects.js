@@ -106,6 +106,19 @@ const Projects = () => {
               GitHub Repository
             </a>
           </div>
+
+          <div className="project-item">
+            <h4>SpringBoot Inventory Website (JavaScript Frameworks)</h4>
+            <p>
+            Developed a custom inventory management application using Spring Boot for a store that tracks products and their parts. Implemented features such as inventory validation, part updates, deletion, and user-friendly interfaces with Thymeleaf templates. Note: Currently developing a solution on how to host this project on AWS for a live web experience.
+            </p>
+            <a href="https://github.com/anniefees/d287.git" target="_blank" rel="noopener noreferrer" className="button">
+              Visit the project
+            </a>
+            <a href="https://github.com/anniefees/d287.git" target="_blank" rel="noopener noreferrer" className="button">
+              GitHub Repository
+            </a>
+          </div>
         </div>
       </div>
 
