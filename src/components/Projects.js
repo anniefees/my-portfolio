@@ -56,7 +56,7 @@ const Projects = () => {
             <h4>Angular World Map Application (JavaScript Fundamentals)</h4>
             <p>
               Developed a functional Angular application that integrates an SVG-based world map. 
-              Users can click on countries to view dynamically retrieved information from an external API.
+              Users can click on countries to view dynamically retrieved information from an external API. Hosted on Netlify.
             </p>
             <a href="https://mapapiannie.netlify.app/" target="_blank" rel="noopener noreferrer" className="button">
               Visit the project
@@ -112,7 +112,7 @@ const Projects = () => {
             <p>
             Developed a custom inventory management application using Spring Boot for a store that tracks products and their parts. Implemented features such as inventory validation, part updates, deletion, and user-friendly interfaces with Thymeleaf templates. Note: Currently developing a solution on how to host this project on AWS for a live web experience.
             </p>
-            <a href="https://github.com/anniefees/d287.git" target="_blank" rel="noopener noreferrer" className="button">
+            <a href="https://timberandtextilesapp-2f370d1ffad4.herokuapp.com/mainscreen" target="_blank" rel="noopener noreferrer" className="button">
               Visit the project
             </a>
             <a href="https://github.com/anniefees/d287.git" target="_blank" rel="noopener noreferrer" className="button">
