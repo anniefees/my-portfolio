@@ -119,6 +119,14 @@ const Projects = () => {
               GitHub Repository
             </a>
           </div>
+
+          <div className="project-item">
+            <h4>DVD Rental Shop Database Manipulation (Advanced Data Management)</h4>
+            <p>In this project, I created a business report using the DVD Dataset to answer a real-world business question. The process involved building detailed and summary SQL tables, transforming data with user-defined SQL functions, and automating updates with triggers and stored procedures. The project concluded with a demonstration of the SQL code functionality through a recorded presentation.</p>
+            <a href="https://docs.google.com/document/d/17-kdosqgpHhpR7VDNg2QEk_84xheNhL5NIMEeP7MBr8/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="button">
+              Visit the Google Doc
+            </a>
+          </div>
         </div>
       </div>
 
