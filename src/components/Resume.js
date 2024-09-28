@@ -20,7 +20,7 @@ const Resume = () => {
         <h3>Professional Experience</h3>
 
         <div className="experience-item">
-          <h4>Flight Attendant (German Qualified) - United Airlines</h4>
+          <h4>Flight Attendant (German Qualified) - United Airlines, Washington D.C.</h4>
           <p><em>2023 – Present</em></p>
           <p>
             <strong>Responsibilities:</strong> Served nearly 300 passengers per flight on long-haul international flights, 
@@ -33,7 +33,7 @@ const Resume = () => {
         </div>
 
         <div className="experience-item">
-          <h4>English as a Foreign Language Teacher - Italki</h4>
+          <h4>English as a Foreign Language Teacher - Italki, Remote</h4>
           <p><em>2022 – 2023</em></p>
           <p>
             Delivered personalized English lessons to students worldwide, enhancing language proficiency and cultural understanding. 
@@ -62,7 +62,7 @@ const Resume = () => {
         </div>
 
         <div className="experience-item">
-          <h4>Web Developer - Brigham Young University</h4>
+          <h4>Web Developer - Brigham Young University, Provo, Utah</h4>
           <p><em>2020</em></p>
           <p>
             Collaborated with a team of 10 developers to design, develop, and maintain the On-Campus Housing system. 
@@ -73,27 +73,60 @@ const Resume = () => {
             streamlining the user experience for over 8,000 students.
           </p>
         </div>
+
+        <div className="experience-item">
+          <h4>Gas Attendant - Fabulous Freddy's Car Wash, St. George, Utah</h4>
+          <p><em>2018</em></p>
+          <p>
+            Provided customer service at a full-service car wash, handled fueling, and maintained safety standards.
+          </p>
+        </div>
+
+        <div className="experience-item">
+          <h4>Student Dance Instructor - Body Motion Dance Company, Park City, Utah</h4>
+          <p><em>2015 – 2017</em></p>
+          <p>
+            Taught dance classes to 10-30 students three times per week, fostering technical skills and performance growth.
+          </p>
+        </div>
       </div>
 
       {/* Education Section */}
       <div className="section-container">
         <h3>Education</h3>
         <div className="education-item">
-          <h4>B.S. in Software Engineering (Expected 2025) - Western Governors University</h4>
+          <h4>B.S. in Software Engineering (Expected Early 2025) - Western Governors University</h4>
           <p><em>2023 – Present</em></p>
         </div>
         <div className="education-item">
-          <h4>B.S. Informatik (not complete) Paris Lodron Universitaet Salzburg -- Salzburg, Austria</h4>
-          <p><em>2021 – 2022</em></p>
+          <h4>B.S. in Computer Science - Paris Lodron Universität Salzburg, Austria</h4>
+          <p><em>2019 – 2021</em></p>
           <p>
-            Completed 2 years of coursework in Informatics with a focus on data management and 
+            Completed 2 years of coursework in Computer Science with a focus on data management and 
             software development. The program emphasized hands-on learning in programming and problem-solving, 
             preparing students for practical applications in technology.
           </p>
         </div>
         <div className="education-item">
+          <h4>Brigham Young University - Provo, Utah</h4>
+          <p><em>Fall 2020</em></p>
+          <p>Studied Computer Science for one semester, focusing on foundational programming concepts and systems design.</p>
+        </div>
+        <div className="education-item">
           <h4>Vilseck High School - Vilseck, Germany</h4>
           <p><em>Graduated 2020</em></p>
+          <p><strong>Accolades:</strong> Graduated as salutatorian with a 4.3 GPA.
+            <br />
+            - Girls Golf DoDEA European Champion, 2019
+            <br />
+            - Cheer Captain, European All-State Team (2019–2020)
+            <br />
+            - Bavarian Military Youth of the Year, 2019
+            <br />
+            - Best Female Golfer, 2018
+            <br />
+            - Utah State 2A Drill Showmanship Award, 2017
+          </p>
         </div>
       </div>
 
@@ -106,7 +139,6 @@ const Resume = () => {
           <li><strong>ITIL 4 Foundation</strong> - Obtained 2023</li>
           <li><strong>Google IT Support Certificate</strong> - Obtained 2022</li>
           <li><strong>Deutsch B2 (Goethe-Institut)</strong> - Obtained 2020</li>
-
         </ul>
       </div>
 
@@ -129,11 +161,10 @@ const Resume = () => {
           <h3>Hobbies</h3>
           <ul className="hobbies-list">
             <li><strong>Snowboarding</strong>: Explored slopes in Colorado, Utah, West Virginia, Wyoming, Switzerland, Austria, Germany, and France.</li>
-            <li><strong>Golf</strong>: State champion in high school, now plays casually.</li>
-            <li><strong>Running</strong>: Completed a half marathon.</li>
+            <li><strong>Golf</strong>: <a href="https://www.stripes.com/sports/fees-shenk-hold-onto-leads-to-become-european-champs-1.602542" target="_blank" rel="noopener noreferrer">2019 DoDEA European Girls Golf Champion</a></li>
+            <li><strong>Running</strong>: Completed the DC Half Marathon, September 2024.</li>
             <li><strong>Ballroom Dancing</strong>: Competitively danced as a child, continues as a creative outlet.</li>
-            <li><strong>Culinary Tourism</strong>: Explored culinary traditions in over 42 countries.</li>
-            <li><strong>Travel</strong>: Visited 42 countries, embracing cultural exchanges and adventure.</li>
+            <li><strong>Travel</strong>: Visited 42 countries across 4 continents, embracing cultural exchanges and adventure.</li>
           </ul>
         </div>
       </div>
